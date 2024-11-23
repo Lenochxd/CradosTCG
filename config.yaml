@@ -1,0 +1,20 @@
+# Configuration file for CradosTCG
+
+server:
+  host: localhost
+  port: 8080
+  debug: true
+
+database:
+  host: localhost
+  port: 5432
+  name: crados_tcg_db
+  user: db_user
+  password: db_password
+
+logging:
+  file: /var/log/crados_tcg.log
+
+game:
+  booster_cards: 5
+  booster_stickers: 1
